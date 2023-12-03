@@ -1,0 +1,635 @@
+/* Public properties */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+.float{
+    clear: both;
+}
+
+body{
+    overflow-x: hidden !important;
+ }
+
+
+ 
+
+/* header section */
+
+.header{
+    background-image: url('../img/shutterstock_277750193.jpg');
+    height: 100vh;
+    background-size: cover;
+    position:relative;
+    
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin-top: 15px;
+    position:fixed;
+    padding-left: 20px;
+    width: 100%;
+    
+}
+
+.logo{
+    width: 20%;
+}
+.logo img{
+    width:60%;
+  
+    
+}
+.nav{
+   
+    width: 40%;
+   
+   
+
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    
+
+}
+
+.nav li {
+    display:inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-family: 'Alegreya', serif;
+
+    
+}
+
+.header-content {
+    text-align: center;
+    
+   
+}
+
+.header-content img{
+    padding-top: 40px;
+}
+
+.header h1{
+    font-family: 'Alegreya', serif;
+    font-size: 78px;
+    color: #fff;
+    font-weight:normal;
+    
+}
+
+.header p{
+    font-family: 'Dancing Script',cursive;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.header button{
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 18px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.learn-more{
+    background-color: rgb(193, 171, 132);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.learn-more:hover {
+    background-color: #fff;
+    color: black;
+  
+ 
+}
+
+.icons{
+    box-sizing: border-box;
+    width: 42px;
+    height: 95px;
+    background-color:rgb(255, 255, 255);
+    position:fixed;
+    top:200px;
+    right: 0;
+    border-radius:10px 0 0 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+ .fa-cogs,.fa-shopping-cart{
+    color: rgb(104, 104, 104);
+    width: 23.5px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-size:22px;
+    padding-bottom: 10px;
+    cursor: pointer;
+ }
+
+ .fa-cogs:hover{
+    color:rgb(33, 143, 230);
+  }
+ .fa-shopping-cart:hover{
+   color:rgb(33, 143, 230);
+ }
+/*about section*/ 
+
+.about{
+    float: left;
+    width: 100%;
+}
+.Cheff {
+    float: left;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.about-information {
+    float: left;
+    width: 40%;
+    margin-top: 170px;
+    margin-left: 80px;
+    
+}
+.about h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    color: rgb(37, 48, 72);
+    font-weight: lighter;
+    margin-bottom: 15px;
+
+}
+
+.about h3 {
+    font-family:'Dancing Script', cursive; 
+    font-size: 28px;
+    color: rgb(193, 171, 132);
+    font-weight: lighter;
+    margin-bottom: 15px;
+
+}
+.about p {
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(104, 104, 104);
+  
+
+}
+.list {
+   padding-top: 40px;
+   float: left;
+}
+.icone {
+    padding-bottom: 20px;
+}
+.advantages {
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-family:'Alegreya Sans', sans-serif;
+}
+.fa-envira , .fa-users,.fa-heart, .fa-check
+{
+    box-sizing: border-box;
+    width: 52px;
+    height: 52px;
+    font-size: 24px;
+    padding: 14px;
+    margin-right: 10px;
+    background-color: rgb(193, 171, 132);
+    color: #fff;
+    border-radius: 100%;  
+}
+
+/*review section*/
+
+.review{
+    background-color:rgb(248, 248, 248);
+}
+
+.reviewer{
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+}
+.review-information{
+    float: left;
+    width: 40%;
+    margin-left: 80px;
+    
+}
+
+.review-information h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    color: rgb(37, 48, 72);
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.review-information h3 {
+     font-family:'Dancing Script', cursive; 
+     font-size: 28px;
+     color: rgb(193, 171, 132);
+     font-weight: lighter;
+     
+    
+    }
+    .review-information p {
+        font-family:'Alegreya Sans', sans-serif;
+        font-size: 18px;
+        line-height: 32px;
+        color: rgb(104, 104, 104);
+        margin-top: 40px;
+      
+    
+    }
+
+.view{
+    float: right;
+    width: 40%;
+    margin-right: 90px;
+}
+.view img{
+    width: 520px;
+    height: 420px;
+}
+
+.review-list{
+    padding-top: 40px;
+   float: left;
+}
+
+.review-icone{
+    padding-bottom: 20px;
+}
+.reason{
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-family:'Alegreya Sans', sans-serif;
+
+}
+.fa-thumbs-up{
+    color: rgb(193, 171, 132);
+    margin-right: 10px;
+    font-size: 18px;
+}
+.outer-view{
+    margin-top: 100px;
+    background-image: 
+    linear-Gradient(rgba(18, 17, 15, 0.2),rgb(18, 17, 15,.2))
+    ,url('../img/shutterstock_280369721.jpg');
+    background-attachment: fixed;
+    height: 501px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+   
+}
+
+.meals{
+    text-align: center;
+    margin-top: 50px;
+  
+}
+.meals h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    color: rgb(37, 48, 72);
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.meals h3 {
+     font-family:'Dancing Script', cursive; 
+     font-size: 28px;
+     color: rgb(193, 171, 132);
+     font-weight: lighter;
+     
+    
+    }
+.meals-description{
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+
+}
+
+.dishes img{
+    width: 345px;
+    height: 288px;
+    
+}
+
+
+.dishes{
+    float: left;
+    width: 30%;
+    padding-right: 25px;
+}
+.dishes h4{
+    padding-top: 20px;
+    font-family: 'Alegreya', serif;
+    font-size: 21px;
+    color: rgb(37, 48, 72);
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.dishes p{
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-weight: lighter;
+    padding-bottom: 70px;
+}
+
+.full-menu{
+    color: rgb(255, 255, 255);
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    background-color: rgb(193, 171, 132);
+    padding: 15px 28px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*address section*/
+
+.address{
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+.where-are-we{
+    float: left;
+    width: 40%;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+.map{
+    float: left;
+    width: 40%;
+    padding-right: 60px;
+   
+}
+.map iframe{
+    width: 500px;
+}
+.where-are-we h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    color: rgb(37, 48, 72);
+    font-weight: lighter;
+    margin-bottom: 15px;
+
+}
+.where-are-we p{
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-weight: lighter;
+
+}
+.details{
+    margin-top: 20px;
+   
+  
+    
+}
+.address-list{
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-family:'Alegreya Sans', sans-serif;
+    line-height: 33.48px;
+}
+
+.fa-map,.fa-phone,.fa-headphones,.fa-envelope{
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgb(193, 171, 132);
+    color: #fff;
+    border-radius: 100%;
+
+}
+
+.address-info{
+    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.main-footer{
+    float: left;
+    background-color: rgb(64, 61, 56);
+    padding-left: 80px;
+    margin-top: 100px;
+    padding-bottom:70px ;
+    
+}
+.main-footer h4{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255,.8);
+    font-weight: lighter;
+    
+   
+}
+.about-us{
+    float: left;
+    width: 21%;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+.about-us p{
+color: rgb(150, 150, 150);
+font-family:'Alegreya Sans', sans-serif ;
+font-size: 16px;
+padding-top:20px ;
+line-height: 30px;
+}
+.usefull-links{
+    float: left;
+    width: 21%;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+.angels{
+    font-size:12px;
+    padding-right: 7px;
+}
+.opening-hours{
+    float: left;
+    width: 21%;
+    padding-top: 50px;
+    padding-right: 30px;
+
+}
+.links-name{
+   border-bottom-style: solid;
+   border-width: .66px;
+   border-color: rgba(255, 255, 255, 0.05);
+   font-family:'Alegreya Sans', sans-serif ;
+   font-size: 16px;
+   padding-bottom:20px ;
+   padding-top: 10px;
+
+}
+.links-list{
+    padding-top:20px ;
+    color: rgb(150, 150, 150);
+    font-family:'Alegreya Sans', sans-serif ;
+    font-size: 16px;
+}
+.contact-details{
+    float: right;
+    width: 21%;
+    background-color: rgb(64, 61, 56,.7);
+    background-position: center;
+    padding-right: 62px;
+    padding-top: 50px;
+}
+.open-time{
+    padding-top:20px ;
+    color: rgb(150, 150, 150);
+    font-family:'Alegreya Sans', sans-serif ;
+    font-size: 16px;
+}
+.hours{
+    border-bottom-style: solid;
+   border-width: .66px;
+   border-color: rgba(255, 255, 255, 0.05);
+   font-family:'Alegreya Sans', sans-serif ;
+   font-size: 16px;
+   padding-bottom:20px ;
+   padding-top: 10px;
+   
+}
+.noline{
+border-bottom-style: none ;
+}
+.noborder,.fa-location-dot,.fa-earth-americas{
+    border-radius: 0%;
+    background-color:rgb(64, 61, 56) ;
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+    width: 12px;
+    padding-left: 0;
+
+}
+.contact{
+    padding-top:20px ;
+    background-color:rgb(64, 61, 56,.1) ;
+    color: rgb(150, 150, 150);
+    font-family:'Alegreya Sans', sans-serif ;
+    font-size: 16px;
+    background-image:
+    linear-Gradient(rgb(64, 61, 56,.9),rgb(64, 61, 56,.9))
+     ,url('../img/contact-details-map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:280px;
+   
+   
+    
+}
+.contact-info{
+   border-bottom-style: solid;
+   border-width: .66px;
+   border-color: rgba(255, 255, 255, 0.05);
+   font-family:'Alegreya Sans', sans-serif ;
+   font-size: 16px;
+   padding-bottom:20px ;
+   padding-top: 10px;
+}
+.days-hours{
+    padding-left: 7px;
+}
+
+
+.location-and-social{
+    padding-left: 7px;
+    margin-right: 0px;
+    
+}
+
+.footer-bottom{
+    background-color: rgb(53, 51, 48);
+    text-align: center;
+    padding-top:70px ;
+}
+.footer-bottom p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: rgb(119, 119, 119);
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 18px;
+}
+.fa-facebook-f,.fa-instagram,.fa-tumblr,.fa-twitter{
+    box-sizing: border-box;
+    width:60px;
+    height: 60px;
+    font-size: 24px;
+    margin-right: 8px;
+    padding: 18px;
+    background-color: rgb(72, 69, 64);
+    color: rgb(140, 138, 134);
+    border-radius: 100%;
+    margin-bottom: 50px; 
+}
+.fa-facebook-f:hover{
+    cursor: pointer;
+    background-color:rgb(2, 117, 216,.7);
+    color: #fff;
+   
+}
+.fa-instagram:hover{
+    cursor: pointer;
+    background-color:rgb(2, 117, 216,.5);
+    color: #fff;
+}
+.fa-tumblr:hover{
+    cursor: pointer;
+    background-color:rgb(2, 117, 216,.3);
+    color: #fff;
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    background-color:rgba(2, 148, 216);
+    color: #fff;
+}
+
+
+
+
+
